@@ -5,8 +5,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CleverTap/clevertap-ios-sdk",
       "state" : {
-        "revision" : "087e53109305fb8c9ffeaea81be718317980beff",
-        "version" : "5.2.2"
+        "revision" : "94db7cf88e3f8835b100b38a34ef24d2664b9309",
+        "version" : "6.1.0"
+      }
+    },
+    {
+      "identity" : "ctnotificationservice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CleverTap/CTNotificationService.git",
+      "state" : {
+        "revision" : "75e9a1ad285a2ea4d252fe8bea036d4d4a447f21",
+        "version" : "0.1.5"
       }
     },
     {

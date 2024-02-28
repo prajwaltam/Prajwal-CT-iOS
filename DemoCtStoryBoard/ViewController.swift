@@ -37,6 +37,14 @@ class ViewController: UIViewController ,CleverTapDisplayUnitDelegate{
     
     
     
+    @IBAction func AddSingleImagePush(_ sender: Any) {
+        CleverTap.sharedInstance()?.recordEvent("Single Image Push")
+    }
+    @IBAction func PushTemplate(_ sender: Any) {
+        CleverTap.sharedInstance()?.recordEvent("PushTemplate")
+    }
+    
+    
     @IBAction func AddEventWithProperties(_ sender: Any) {
         let props = [
             "Product name": "Casio Chronograph Watch",
