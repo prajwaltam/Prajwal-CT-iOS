@@ -6,14 +6,12 @@
 	<string>46R-747-WW7Z</string>
 	<key>CleverTapToken</key>
 	<string>a4a-264</string>
-	<key>CleverTapRegion</key>
-	<string>eu1</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.usernotifications.service</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>CTNotificationServiceExtension</string>
+		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
 	</dict>
 </dict>
 </plist>

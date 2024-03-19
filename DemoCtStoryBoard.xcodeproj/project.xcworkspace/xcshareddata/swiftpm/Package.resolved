@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "ctnotificationcontent",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CleverTap/CTNotificationContent",
+      "state" : {
+        "revision" : "4f2a8eb3d8055fac58e4ecbaee0012a205892e1d",
+        "version" : "0.2.5"
+      }
+    },
+    {
       "identity" : "ctnotificationservice",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CleverTap/CTNotificationService.git",

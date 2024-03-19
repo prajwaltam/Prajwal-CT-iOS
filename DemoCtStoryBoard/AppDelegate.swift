@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         CleverTap.autoIntegrate()
         CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue)
         registerForPush()
-//        registerCategory()
+        registerCategory()
         
         return true
     }
@@ -55,13 +55,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             NSLog("%@: registered for remote notifications: %@", self.description, deviceToken.description)
         }
         
-        func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                    didReceive response: UNNotificationResponse,
-                                    withCompletionHandler completionHandler: @escaping () -> Void) {
-            
-            NSLog("%@: did receive notification response: %@", self.description, response.notification.request.content.userInfo)
-            completionHandler()
-        }
+//        func userNotificationCenter(_ center: UNUserNotificationCenter,
+//                                    didReceive response: UNNotificationResponse,
+//                                    withCompletionHandler completionHandler: @escaping () -> Void) {
+//
+//            NSLog("%@: did receive notification response: %@", self.description, response.notification.request.content.userInfo)
+//            completionHandler()
+//        }
         
         func userNotificationCenter(_ center: UNUserNotificationCenter,
                                     willPresent notification: UNNotification,
