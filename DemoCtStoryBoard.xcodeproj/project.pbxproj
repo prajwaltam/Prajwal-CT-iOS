@@ -16,32 +16,34 @@
 		0A402DA02B8F33D5004677BD /* CleverTapLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 0A402D9F2B8F33D5004677BD /* CleverTapLocation */; };
 		0A402DA22B8F33D5004677BD /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0A402DA12B8F33D5004677BD /* CleverTapSDK */; };
 		0A402DBF2B8F3E16004677BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B753C2B4A62E1003588DA /* AppDelegate.swift */; };
-		0A402DD82B8F4983004677BD /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A402D252B8ECB0C004677BD /* UserNotifications.framework */; };
-		0A402DD92B8F4983004677BD /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A402D272B8ECB0C004677BD /* UserNotificationsUI.framework */; };
-		0A402DDC2B8F4983004677BD /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A402DDB2B8F4983004677BD /* NotificationViewController.swift */; };
-		0A402DDF2B8F4983004677BD /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A402DDD2B8F4983004677BD /* MainInterface.storyboard */; };
-		0A402DE32B8F4983004677BD /* NotificationContentDemo.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0A402DD72B8F4983004677BD /* NotificationContentDemo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A402DE92B8F49FE004677BD /* CTNotificationContent in Frameworks */ = {isa = PBXBuildFile; productRef = 0A402DE82B8F49FE004677BD /* CTNotificationContent */; };
-		0A402DF12B8F4CD9004677BD /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A402DF02B8F4CD9004677BD /* NotificationService.swift */; };
-		0A402DF52B8F4CD9004677BD /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0A402DEE2B8F4CD9004677BD /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0A402DFA2B8F4D08004677BD /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0A402DF92B8F4D08004677BD /* CleverTapSDK */; };
-		0A402DFC2B8F4D08004677BD /* CTNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 0A402DFB2B8F4D08004677BD /* CTNotificationService */; };
+		0A890AF52C2E94510039BC54 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A890AF42C2E94510039BC54 /* NotificationService.swift */; };
+		0A890AF92C2E94510039BC54 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0A890AF22C2E94510039BC54 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A890AFE2C2E94C50039BC54 /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0A890AFD2C2E94C50039BC54 /* CleverTapSDK */; };
+		0A890B002C2E94C50039BC54 /* CTNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 0A890AFF2C2E94C50039BC54 /* CTNotificationService */; };
+		0AF7650A2C2E81AE00CF6CF3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A402D252B8ECB0C004677BD /* UserNotifications.framework */; };
+		0AF7650B2C2E81AE00CF6CF3 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A402D272B8ECB0C004677BD /* UserNotificationsUI.framework */; };
+		0AF7650E2C2E81AE00CF6CF3 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7650D2C2E81AE00CF6CF3 /* NotificationViewController.swift */; };
+		0AF765112C2E81AE00CF6CF3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7650F2C2E81AE00CF6CF3 /* MainInterface.storyboard */; };
+		0AF765152C2E81AE00CF6CF3 /* Notification Content.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0AF765092C2E81AE00CF6CF3 /* Notification Content.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AF7651A2C2E82F400CF6CF3 /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF765192C2E82F400CF6CF3 /* CleverTapSDK */; };
+		0AF7651C2C2E82F400CF6CF3 /* CTNotificationContent in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF7651B2C2E82F400CF6CF3 /* CTNotificationContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A402DE12B8F4983004677BD /* PBXContainerItemProxy */ = {
+		0A890AF72C2E94510039BC54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0A1B75312B4A62E1003588DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A402DD62B8F4983004677BD;
-			remoteInfo = NotificationContentDemo;
-		};
-		0A402DF32B8F4CD9004677BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0A1B75312B4A62E1003588DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A402DED2B8F4CD9004677BD;
+			remoteGlobalIDString = 0A890AF12C2E94510039BC54;
 			remoteInfo = NotificationService;
+		};
+		0AF765132C2E81AE00CF6CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1B75312B4A62E1003588DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF765082C2E81AE00CF6CF3;
+			remoteInfo = "Notification Content";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,8 +54,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0A402DE32B8F4983004677BD /* NotificationContentDemo.appex in Embed Foundation Extensions */,
-				0A402DF52B8F4CD9004677BD /* NotificationService.appex in Embed Foundation Extensions */,
+				0AF765152C2E81AE00CF6CF3 /* Notification Content.appex in Embed Foundation Extensions */,
+				0A890AF92C2E94510039BC54 /* NotificationService.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,14 +74,14 @@
 		0A1B754D2B4A62E2003588DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A402D252B8ECB0C004677BD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		0A402D272B8ECB0C004677BD /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
-		0A402DD72B8F4983004677BD /* NotificationContentDemo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContentDemo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A402DDB2B8F4983004677BD /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		0A402DDE2B8F4983004677BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		0A402DE02B8F4983004677BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A402DEE2B8F4CD9004677BD /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A402DF02B8F4CD9004677BD /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		0A402DF22B8F4CD9004677BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A890AF22C2E94510039BC54 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A890AF42C2E94510039BC54 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0A890AF62C2E94510039BC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A959DB72B831C5D008F4320 /* DemoCtStoryBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoCtStoryBoard.entitlements; sourceTree = "<group>"; };
+		0AF765092C2E81AE00CF6CF3 /* Notification Content.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Notification Content.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF7650D2C2E81AE00CF6CF3 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		0AF765102C2E81AE00CF6CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0AF765122C2E81AE00CF6CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,21 +95,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A402DD42B8F4983004677BD /* Frameworks */ = {
+		0A890AEF2C2E94510039BC54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A402DD92B8F4983004677BD /* UserNotificationsUI.framework in Frameworks */,
-				0A402DD82B8F4983004677BD /* UserNotifications.framework in Frameworks */,
+				0A890B002C2E94C50039BC54 /* CTNotificationService in Frameworks */,
+				0A890AFE2C2E94C50039BC54 /* CleverTapSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A402DEB2B8F4CD9004677BD /* Frameworks */ = {
+		0AF765062C2E81AE00CF6CF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A402DFC2B8F4D08004677BD /* CTNotificationService in Frameworks */,
-				0A402DFA2B8F4D08004677BD /* CleverTapSDK in Frameworks */,
+				0AF7650B2C2E81AE00CF6CF3 /* UserNotificationsUI.framework in Frameworks */,
+				0AF7650A2C2E81AE00CF6CF3 /* UserNotifications.framework in Frameworks */,
+				0AF7651C2C2E82F400CF6CF3 /* CTNotificationContent in Frameworks */,
+				0AF7651A2C2E82F400CF6CF3 /* CleverTapSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				0A1B753B2B4A62E1003588DA /* DemoCtStoryBoard */,
-				0A402DDA2B8F4983004677BD /* NotificationContentDemo */,
-				0A402DEF2B8F4CD9004677BD /* NotificationService */,
+				0AF7650C2C2E81AE00CF6CF3 /* Notification Content */,
+				0A890AF32C2E94510039BC54 /* NotificationService */,
 				0A1B753A2B4A62E1003588DA /* Products */,
 				0A402D1B2B8E22B4004677BD /* Frameworks */,
 			);
@@ -129,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				0A1B75392B4A62E1003588DA /* DemoCtStoryBoard.app */,
-				0A402DD72B8F4983004677BD /* NotificationContentDemo.appex */,
-				0A402DEE2B8F4CD9004677BD /* NotificationService.appex */,
+				0AF765092C2E81AE00CF6CF3 /* Notification Content.appex */,
+				0A890AF22C2E94510039BC54 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,23 +164,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0A402DDA2B8F4983004677BD /* NotificationContentDemo */ = {
+		0A890AF32C2E94510039BC54 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
-				0A402DDB2B8F4983004677BD /* NotificationViewController.swift */,
-				0A402DDD2B8F4983004677BD /* MainInterface.storyboard */,
-				0A402DE02B8F4983004677BD /* Info.plist */,
-			);
-			path = NotificationContentDemo;
-			sourceTree = "<group>";
-		};
-		0A402DEF2B8F4CD9004677BD /* NotificationService */ = {
-			isa = PBXGroup;
-			children = (
-				0A402DF02B8F4CD9004677BD /* NotificationService.swift */,
-				0A402DF22B8F4CD9004677BD /* Info.plist */,
+				0A890AF42C2E94510039BC54 /* NotificationService.swift */,
+				0A890AF62C2E94510039BC54 /* Info.plist */,
 			);
 			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		0AF7650C2C2E81AE00CF6CF3 /* Notification Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7650D2C2E81AE00CF6CF3 /* NotificationViewController.swift */,
+				0AF7650F2C2E81AE00CF6CF3 /* MainInterface.storyboard */,
+				0AF765122C2E81AE00CF6CF3 /* Info.plist */,
+			);
+			path = "Notification Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +198,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				0A402DE22B8F4983004677BD /* PBXTargetDependency */,
-				0A402DF42B8F4CD9004677BD /* PBXTargetDependency */,
+				0AF765142C2E81AE00CF6CF3 /* PBXTargetDependency */,
+				0A890AF82C2E94510039BC54 /* PBXTargetDependency */,
 			);
 			name = DemoCtStoryBoard;
 			packageProductDependencies = (
@@ -207,30 +211,13 @@
 			productReference = 0A1B75392B4A62E1003588DA /* DemoCtStoryBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A402DD62B8F4983004677BD /* NotificationContentDemo */ = {
+		0A890AF12C2E94510039BC54 /* NotificationService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A402DE42B8F4983004677BD /* Build configuration list for PBXNativeTarget "NotificationContentDemo" */;
+			buildConfigurationList = 0A890AFA2C2E94510039BC54 /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
-				0A402DD32B8F4983004677BD /* Sources */,
-				0A402DD42B8F4983004677BD /* Frameworks */,
-				0A402DD52B8F4983004677BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NotificationContentDemo;
-			productName = NotificationContentDemo;
-			productReference = 0A402DD72B8F4983004677BD /* NotificationContentDemo.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		0A402DED2B8F4CD9004677BD /* NotificationService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A402DF62B8F4CD9004677BD /* Build configuration list for PBXNativeTarget "NotificationService" */;
-			buildPhases = (
-				0A402DEA2B8F4CD9004677BD /* Sources */,
-				0A402DEB2B8F4CD9004677BD /* Frameworks */,
-				0A402DEC2B8F4CD9004677BD /* Resources */,
+				0A890AEE2C2E94510039BC54 /* Sources */,
+				0A890AEF2C2E94510039BC54 /* Frameworks */,
+				0A890AF02C2E94510039BC54 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -238,11 +225,32 @@
 			);
 			name = NotificationService;
 			packageProductDependencies = (
-				0A402DF92B8F4D08004677BD /* CleverTapSDK */,
-				0A402DFB2B8F4D08004677BD /* CTNotificationService */,
+				0A890AFD2C2E94C50039BC54 /* CleverTapSDK */,
+				0A890AFF2C2E94C50039BC54 /* CTNotificationService */,
 			);
 			productName = NotificationService;
-			productReference = 0A402DEE2B8F4CD9004677BD /* NotificationService.appex */;
+			productReference = 0A890AF22C2E94510039BC54 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0AF765082C2E81AE00CF6CF3 /* Notification Content */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF765162C2E81AE00CF6CF3 /* Build configuration list for PBXNativeTarget "Notification Content" */;
+			buildPhases = (
+				0AF765052C2E81AE00CF6CF3 /* Sources */,
+				0AF765062C2E81AE00CF6CF3 /* Frameworks */,
+				0AF765072C2E81AE00CF6CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notification Content";
+			packageProductDependencies = (
+				0AF765192C2E82F400CF6CF3 /* CleverTapSDK */,
+				0AF7651B2C2E82F400CF6CF3 /* CTNotificationContent */,
+			);
+			productName = "Notification Content";
+			productReference = 0AF765092C2E81AE00CF6CF3 /* Notification Content.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -258,10 +266,10 @@
 					0A1B75382B4A62E1003588DA = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					0A402DD62B8F4983004677BD = {
+					0A890AF12C2E94510039BC54 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					0A402DED2B8F4CD9004677BD = {
+					0AF765082C2E81AE00CF6CF3 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -285,8 +293,8 @@
 			projectRoot = "";
 			targets = (
 				0A1B75382B4A62E1003588DA /* DemoCtStoryBoard */,
-				0A402DD62B8F4983004677BD /* NotificationContentDemo */,
-				0A402DED2B8F4CD9004677BD /* NotificationService */,
+				0AF765082C2E81AE00CF6CF3 /* Notification Content */,
+				0A890AF12C2E94510039BC54 /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -302,18 +310,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A402DD52B8F4983004677BD /* Resources */ = {
+		0A890AF02C2E94510039BC54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A402DDF2B8F4983004677BD /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A402DEC2B8F4CD9004677BD /* Resources */ = {
+		0AF765072C2E81AE00CF6CF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF765112C2E81AE00CF6CF3 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,34 +339,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A402DD32B8F4983004677BD /* Sources */ = {
+		0A890AEE2C2E94510039BC54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A402DDC2B8F4983004677BD /* NotificationViewController.swift in Sources */,
+				0A890AF52C2E94510039BC54 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A402DEA2B8F4CD9004677BD /* Sources */ = {
+		0AF765052C2E81AE00CF6CF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A402DF12B8F4CD9004677BD /* NotificationService.swift in Sources */,
+				0AF7650E2C2E81AE00CF6CF3 /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A402DE22B8F4983004677BD /* PBXTargetDependency */ = {
+		0A890AF82C2E94510039BC54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A402DD62B8F4983004677BD /* NotificationContentDemo */;
-			targetProxy = 0A402DE12B8F4983004677BD /* PBXContainerItemProxy */;
+			target = 0A890AF12C2E94510039BC54 /* NotificationService */;
+			targetProxy = 0A890AF72C2E94510039BC54 /* PBXContainerItemProxy */;
 		};
-		0A402DF42B8F4CD9004677BD /* PBXTargetDependency */ = {
+		0AF765142C2E81AE00CF6CF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A402DED2B8F4CD9004677BD /* NotificationService */;
-			targetProxy = 0A402DF32B8F4CD9004677BD /* PBXContainerItemProxy */;
+			target = 0AF765082C2E81AE00CF6CF3 /* Notification Content */;
+			targetProxy = 0AF765132C2E81AE00CF6CF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,10 +387,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		0A402DDD2B8F4983004677BD /* MainInterface.storyboard */ = {
+		0AF7650F2C2E81AE00CF6CF3 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0A402DDE2B8F4983004677BD /* Base */,
+				0AF765102C2E81AE00CF6CF3 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -568,7 +576,7 @@
 			};
 			name = Release;
 		};
-		0A402DE52B8F4983004677BD /* Debug */ = {
+		0A890AFB2C2E94510039BC54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -576,8 +584,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7XM67G79YA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotificationContentDemo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NotificationContentDemo;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -586,7 +594,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cleverTap.DemoCtStoryBoard.NotificationContentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cleverTap.DemoCtStoryBoard.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -595,7 +603,7 @@
 			};
 			name = Debug;
 		};
-		0A402DE62B8F4983004677BD /* Release */ = {
+		0A890AFC2C2E94510039BC54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -603,8 +611,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7XM67G79YA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotificationContentDemo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NotificationContentDemo;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +621,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cleverTap.DemoCtStoryBoard.NotificationContentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cleverTap.DemoCtStoryBoard.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -622,7 +630,7 @@
 			};
 			name = Release;
 		};
-		0A402DF72B8F4CD9004677BD /* Debug */ = {
+		0AF765172C2E81AE00CF6CF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -630,8 +638,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7XM67G79YA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotificationService/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_FILE = "Notification Content/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Notification Content";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -640,7 +648,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cleverTap.DemoCtStoryBoard.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = "cleverTap.DemoCtStoryBoard.Notification-Content";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -649,7 +657,7 @@
 			};
 			name = Debug;
 		};
-		0A402DF82B8F4CD9004677BD /* Release */ = {
+		0AF765182C2E81AE00CF6CF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -657,8 +665,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7XM67G79YA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotificationService/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_FILE = "Notification Content/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Notification Content";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -667,7 +675,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cleverTap.DemoCtStoryBoard.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = "cleverTap.DemoCtStoryBoard.Notification-Content";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -697,20 +705,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A402DE42B8F4983004677BD /* Build configuration list for PBXNativeTarget "NotificationContentDemo" */ = {
+		0A890AFA2C2E94510039BC54 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A402DE52B8F4983004677BD /* Debug */,
-				0A402DE62B8F4983004677BD /* Release */,
+				0A890AFB2C2E94510039BC54 /* Debug */,
+				0A890AFC2C2E94510039BC54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A402DF62B8F4CD9004677BD /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+		0AF765162C2E81AE00CF6CF3 /* Build configuration list for PBXNativeTarget "Notification Content" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A402DF72B8F4CD9004677BD /* Debug */,
-				0A402DF82B8F4CD9004677BD /* Release */,
+				0AF765172C2E81AE00CF6CF3 /* Debug */,
+				0AF765182C2E81AE00CF6CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,15 +768,25 @@
 			package = 0A402DE72B8F49FE004677BD /* XCRemoteSwiftPackageReference "CTNotificationContent" */;
 			productName = CTNotificationContent;
 		};
-		0A402DF92B8F4D08004677BD /* CleverTapSDK */ = {
+		0A890AFD2C2E94C50039BC54 /* CleverTapSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0A402D9E2B8F33D5004677BD /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
 			productName = CleverTapSDK;
 		};
-		0A402DFB2B8F4D08004677BD /* CTNotificationService */ = {
+		0A890AFF2C2E94C50039BC54 /* CTNotificationService */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0A402DB22B8F36CA004677BD /* XCRemoteSwiftPackageReference "CTNotificationService" */;
 			productName = CTNotificationService;
+		};
+		0AF765192C2E82F400CF6CF3 /* CleverTapSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A402D9E2B8F33D5004677BD /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapSDK;
+		};
+		0AF7651B2C2E82F400CF6CF3 /* CTNotificationContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A402DE72B8F49FE004677BD /* XCRemoteSwiftPackageReference "CTNotificationContent" */;
+			productName = CTNotificationContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 

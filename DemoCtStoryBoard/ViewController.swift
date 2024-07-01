@@ -22,7 +22,7 @@ class ViewController: UIViewController ,CleverTapDisplayUnitDelegate{
         let profile: Dictionary<String, String> = [
             //Update pre-defined profile properties
             "Name": "iOS Profile",
-            "Email": "iosprofile@gmail.com",
+            "Email": "iosprofileprajwal@gmail.com",
             //Update custom profile properties
             "Plan type": "Silver",
             "Favorite Food": "Pizza"

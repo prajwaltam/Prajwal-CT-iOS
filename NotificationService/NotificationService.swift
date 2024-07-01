@@ -2,7 +2,7 @@
 //  NotificationService.swift
 //  NotificationService
 //
-//  Created by Prajwal Jagadeesh on 28/02/24.
+//  Created by Prajwal Jagadeesh on 29/05/24.
 //
 
 import UserNotifications
@@ -15,6 +15,14 @@ class NotificationService: CTNotificationServiceExtension {
     var bestAttemptContent: UNMutableNotificationContent?
 
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
+        print("-----Inside NotificationService------")
+        let profile: Dictionary<String, String> = [
+            //Update pre-defined profile properties
+            "Name": "iOS Profile",
+            "Email": "iosprofileprajwal@gmail.com",
+        ]
+
+        CleverTap.sharedInstance()?.onUserLogin(profile)
         CleverTap.sharedInstance()?.recordNotificationViewedEvent(withData:request.content.userInfo)
                 super.didReceive(request, withContentHandler: contentHandler)
     }

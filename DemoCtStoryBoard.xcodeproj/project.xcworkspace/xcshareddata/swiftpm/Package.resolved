@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CleverTap/CTNotificationContent",
       "state" : {
-        "revision" : "4f2a8eb3d8055fac58e4ecbaee0012a205892e1d",
-        "version" : "0.2.5"
+        "revision" : "af1a253f5a206ba87a7aec2047061223b18efda9",
+        "version" : "0.2.7"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CleverTap/CTNotificationService.git",
       "state" : {
-        "revision" : "75e9a1ad285a2ea4d252fe8bea036d4d4a447f21",
-        "version" : "0.1.5"
+        "revision" : "9fb05bd25296f62be89d0ed0542a8473a96234e1",
+        "version" : "0.1.7"
       }
     },
     {
